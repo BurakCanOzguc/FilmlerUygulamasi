@@ -13,6 +13,7 @@ class _DetaySayfaState extends State<DetaySayfa> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey,
       appBar: AppBar(
         title: Text("${widget.film.ad}"),
         backgroundColor: Colors.grey.shade800,
